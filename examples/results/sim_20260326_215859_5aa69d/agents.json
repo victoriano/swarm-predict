@@ -1,0 +1,194 @@
+[
+  {
+    "agent_id": 0,
+    "name": "Pedro Sánchez",
+    "entity_type": "person",
+    "role": "Presidente del Gobierno de España",
+    "objectives": [
+      "Finalizar la legislatura",
+      "Mantener la estabilidad del gobierno",
+      "Afrontar la crisis migratoria"
+    ],
+    "personality": "determinado",
+    "stance": "supportive",
+    "influence_weight": 0.9,
+    "activity_level": 0.5,
+    "initial_knowledge": "Conocimiento sobre la política española y la situación económica",
+    "memory": []
+  },
+  {
+    "agent_id": 1,
+    "name": "PSOE",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "Apoyar al presidente Pedro Sánchez",
+      "Promover políticas sociales",
+      "Fomentar la igualdad y la justicia"
+    ],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 2,
+    "name": "Junts",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "divided",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 3,
+    "name": "Carles Puigdemont",
+    "entity_type": "person",
+    "role": "Líder de Junts",
+    "objectives": [],
+    "personality": "",
+    "stance": "divided",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 4,
+    "name": "PP",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "Oppose government policies",
+      "Gain electoral support",
+      "Strengthen alliances with right-wing parties"
+    ],
+    "personality": "",
+    "stance": "opposing",
+    "influence_weight": 0.7,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 5,
+    "name": "Sumar",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "Promote progressive policies",
+      "Support labor rights",
+      "Advance social justice"
+    ],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.7,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 6,
+    "name": "Yolanda Díaz",
+    "entity_type": "person",
+    "role": "Vicepresidenta del gobierno y exlíder de Sumar",
+    "objectives": [],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.7,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 7,
+    "name": "Alberto Núñez Feijóo",
+    "entity_type": "person",
+    "role": "Líder del Partido Popular",
+    "objectives": [],
+    "personality": "",
+    "stance": "opposing",
+    "influence_weight": 0.7,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 8,
+    "name": "Economía española",
+    "entity_type": "group",
+    "role": "",
+    "objectives": [
+      "Crecimiento económico por encima de la media de la UE.",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.7,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 9,
+    "name": "Vox",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "Oppose the current government",
+      "Promote far-right policies",
+      "Increase political influence"
+    ],
+    "personality": "",
+    "stance": "opposing",
+    "influence_weight": 0.6,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 10,
+    "name": "ERC",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.6,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 11,
+    "name": "Bildu",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "Apoyar al gobierno",
+      "Promover la autodeterminación",
+      "Fomentar la paz y la convivencia en el País Vasco"
+    ],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.6,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  }
+]

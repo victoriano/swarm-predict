@@ -1,0 +1,247 @@
+{
+  "entities": [
+    {
+      "name": "Pedro Sánchez",
+      "entity_type": "person",
+      "description": "Presidente del Gobierno de España desde junio de 2018.",
+      "stance": "supportive",
+      "influence": 0.9
+    },
+    {
+      "name": "PSOE",
+      "entity_type": "organization",
+      "description": "Partido Socialista Obrero Español, partido del presidente.",
+      "stance": "supportive",
+      "influence": 0.8
+    },
+    {
+      "name": "PP",
+      "entity_type": "organization",
+      "description": "Partido Popular, principal oposición liderado por Alberto Núñez Feijóo.",
+      "stance": "opposing",
+      "influence": 0.7
+    },
+    {
+      "name": "Vox",
+      "entity_type": "organization",
+      "description": "Partido de extrema derecha, liderado por Santiago Abascal.",
+      "stance": "opposing",
+      "influence": 0.6
+    },
+    {
+      "name": "Junts",
+      "entity_type": "organization",
+      "description": "Partido independentista catalán, liderado por Carles Puigdemont.",
+      "stance": "divided",
+      "influence": 0.8
+    },
+    {
+      "name": "Sumar",
+      "entity_type": "organization",
+      "description": "Coalición de izquierda, socia de gobierno, liderada por Yolanda Díaz.",
+      "stance": "supportive",
+      "influence": 0.7
+    },
+    {
+      "name": "ERC",
+      "entity_type": "organization",
+      "description": "Partido independentista catalán, apoyo externo al gobierno.",
+      "stance": "supportive",
+      "influence": 0.6
+    },
+    {
+      "name": "Bildu",
+      "entity_type": "organization",
+      "description": "Izquierda abertzale vasca, apoyo habitual al gobierno.",
+      "stance": "supportive",
+      "influence": 0.6
+    },
+    {
+      "name": "PNV",
+      "entity_type": "organization",
+      "description": "Partido Nacionalista Vasco, apoyo habitual al gobierno.",
+      "stance": "supportive",
+      "influence": 0.5
+    },
+    {
+      "name": "Yolanda Díaz",
+      "entity_type": "person",
+      "description": "Vicepresidenta del gobierno y exlíder de Sumar.",
+      "stance": "supportive",
+      "influence": 0.7
+    },
+    {
+      "name": "Alberto Núñez Feijóo",
+      "entity_type": "person",
+      "description": "Líder del Partido Popular.",
+      "stance": "opposing",
+      "influence": 0.7
+    },
+    {
+      "name": "Santiago Abascal",
+      "entity_type": "person",
+      "description": "Líder de Vox.",
+      "stance": "opposing",
+      "influence": 0.6
+    },
+    {
+      "name": "Carles Puigdemont",
+      "entity_type": "person",
+      "description": "Líder de Junts, prófugo de la justicia española.",
+      "stance": "divided",
+      "influence": 0.8
+    },
+    {
+      "name": "Crisis migratoria en Canarias",
+      "entity_type": "group",
+      "description": "Situación que genera tensiones en el gobierno.",
+      "stance": "neutral",
+      "influence": 0.5
+    },
+    {
+      "name": "Economía española",
+      "entity_type": "group",
+      "description": "Crecimiento económico por encima de la media de la UE.",
+      "stance": "supportive",
+      "influence": 0.7
+    },
+    {
+      "name": "Ley de amnistía",
+      "entity_type": "institution",
+      "description": "Ley aprobada en 2024, su implementación está siendo obstaculizada.",
+      "stance": "neutral",
+      "influence": 0.6
+    },
+    {
+      "name": "Moción de censura",
+      "entity_type": "institution",
+      "description": "Instrumento parlamentario que podría ser utilizado contra Sánchez.",
+      "stance": "neutral",
+      "influence": 0.5
+    },
+    {
+      "name": "Elecciones generales",
+      "entity_type": "institution",
+      "description": "Próximas elecciones que deben celebrarse antes de finales de 2027.",
+      "stance": "neutral",
+      "influence": 0.6
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Pedro Sánchez",
+      "target": "PSOE",
+      "relation": "LEADS",
+      "description": "Pedro Sánchez es el líder del PSOE."
+    },
+    {
+      "source": "Pedro Sánchez",
+      "target": "Junts",
+      "relation": "DEPENDS_ON",
+      "description": "El gobierno de Sánchez depende del apoyo de Junts."
+    },
+    {
+      "source": "Junts",
+      "target": "Carles Puigdemont",
+      "relation": "LED_BY",
+      "description": "Junts es liderado por Carles Puigdemont."
+    },
+    {
+      "source": "PP",
+      "target": "Alberto Núñez Feijóo",
+      "relation": "LED_BY",
+      "description": "El PP es liderado por Alberto Núñez Feijóo."
+    },
+    {
+      "source": "Vox",
+      "target": "Santiago Abascal",
+      "relation": "LED_BY",
+      "description": "Vox es liderado por Santiago Abascal."
+    },
+    {
+      "source": "Sumar",
+      "target": "Yolanda Díaz",
+      "relation": "LED_BY",
+      "description": "Sumar es liderado por Yolanda Díaz."
+    },
+    {
+      "source": "Yolanda Díaz",
+      "target": "Sumar",
+      "relation": "PART_OF",
+      "description": "Yolanda Díaz es parte de Sumar."
+    },
+    {
+      "source": "Pedro Sánchez",
+      "target": "Economía española",
+      "relation": "SUPPORTS",
+      "description": "La economía favorable apoya la posición de Sánchez."
+    },
+    {
+      "source": "Junts",
+      "target": "Ley de amnistía",
+      "relation": "CONDITIONAL_SUPPORT",
+      "description": "Junts condiciona su apoyo a la implementación de la ley de amnistía."
+    },
+    {
+      "source": "Pedro Sánchez",
+      "target": "Moción de censura",
+      "relation": "THREATENED_BY",
+      "description": "Sánchez es amenazado por posibles mociones de censura."
+    },
+    {
+      "source": "PP",
+      "target": "Vox",
+      "relation": "ALLIED_WITH",
+      "description": "PP y Vox son aliados en la oposición."
+    },
+    {
+      "source": "PP",
+      "target": "Junts",
+      "relation": "UNLIKELY_ALLIANCE",
+      "description": "Una moción de censura con el apoyo de Junts es improbable."
+    },
+    {
+      "source": "Pedro Sánchez",
+      "target": "Elecciones generales",
+      "relation": "TIMELINE",
+      "description": "Las elecciones generales deben celebrarse antes de finales de 2027."
+    },
+    {
+      "source": "Pedro Sánchez",
+      "target": "Crisis migratoria en Canarias",
+      "relation": "AFFECTED_BY",
+      "description": "La crisis migratoria genera tensiones para Sánchez."
+    },
+    {
+      "source": "Sumar",
+      "target": "Tensiones internas",
+      "relation": "EXPERIENCES",
+      "description": "Sumar enfrenta tensiones internas que afectan su cohesión."
+    },
+    {
+      "source": "Junts",
+      "target": "Pedro Sánchez",
+      "relation": "UNSTABLE_PARTNER",
+      "description": "Junts es un socio inestable para el gobierno de Sánchez."
+    },
+    {
+      "source": "Pedro Sánchez",
+      "target": "Presupuestos Generales del Estado",
+      "relation": "LIMITED_BY",
+      "description": "La falta de nuevos presupuestos limita la acción del gobierno."
+    },
+    {
+      "source": "Pedro Sánchez",
+      "target": "Alberto Núñez Feijóo",
+      "relation": "OPPOSING",
+      "description": "Pedro Sánchez se opone a Alberto Núñez Feijóo."
+    },
+    {
+      "source": "Pedro Sánchez",
+      "target": "Vox",
+      "relation": "OPPOSING",
+      "description": "Pedro Sánchez se opone a Vox."
+    }
+  ],
+  "enrichment_context": "Para evaluar si Pedro Sánchez terminará la legislatura y llegará a finales de 2027 como presidente del gobierno, es crucial analizar la situación política actual en España. A continuación, se presentan los factores clave y dinámicas recientes que influyen en esta predicción:\n\n**Junts: El Socio Inestable**\n\n*   **Importancia Decisiva:** Junts, liderado por Carles Puigdemont, es el factor más crítico. Si Junts retira su apoyo, el gobierno podría caer.\n*   **Postura Actual:** Junts ha mostrado su inestabilidad votando en contra del gobierno en temas importantes y condicionando su apoyo a avances en el proceso independentista y la amnistía de Puigdemont.\n*   **Ley de Amnistía:** A pesar de la aprobación de la ley de amnistía en 2024, su implementación completa está siendo obstaculizada por los tribunales, lo que genera tensiones con Junts.\n*   **Amenazas Constantes:** Junts amenaza regularmente con presentar o apoyar una moción de censura, lo que añade incertidumbre a la estabilidad del gobierno.\n\n**Presupuestos Generales del Estado**\n\n*   **Falta de Aprobación:** El gobierno no ha logrado aprobar nuevos presupuestos desde 2023, operando con los presupuestos prorrogados de la legislatura anterior.\n*   **Limitación de Acción:** La falta de nuevos presupuestos limita la capacidad del gobierno para implementar nuevas políticas y responder a las necesidades del país.\n*   **Negociaciones Fallidas:** Los intentos de negociar nuevos presupuestos han fracasado debido a las exigencias de Junts y otros socios parlamentarios.\n\n**Sumar: Tensiones Internas**\n\n*   **Liderazgo:** Yolanda Díaz dimitió como líder de Sumar, aunque sigue siendo vicepresidenta del gobierno.\n*   **Fragmentación:** Sumar enfrenta tensiones internas y fragmentación, con la salida de Podemos y la renegociación de la posición de IU.\n*   **Apoyo Garantizado:** A pesar de las tensiones, Sumar sigue siendo un apoyo garantizado para el gobierno, aunque con menor fuerza y cohesión.\n\n**PP y Vox: La Oposición**\n\n*   **Presión por Elecciones:** Alberto Núñez Feijóo, líder del PP, está presionando para que se convoquen elecciones anticipadas.\n*   **Moción de Censura:** Una moción de censura requeriría un candidato alternativo y una mayoría absoluta (176 escaños), lo cual es difícil de alcanzar.\n*   **Imposibilidad de Mayoría:** La suma de PP y Vox (170 escaños) no es suficiente para alcanzar la mayoría necesaria, y una moción de censura con el apoyo de Junts es improbable debido a diferencias ideológicas.\n\n**Otros Factores**\n\n*   **Economía:** La economía española está creciendo por encima de la media de la UE, con una inflación controlada y un desempleo en descenso, lo que proporciona argumentos a Sánchez para mantenerse en el poder.\n*   **Contexto Europeo:** El contexto europeo, marcado por el rearme, la guerra en Ucrania y la posibilidad de un regreso de Trump en Estados Unidos, añade complejidad a la situación política.\n*   **Resiliencia de Sánchez:** Pedro Sánchez ha demostrado una notable capacidad de supervivencia política en situaciones adversas, lo que sugiere que podría superar los desafíos actuales.\n\n**Conclusión**\n\nLa capacidad de Pedro Sánchez para permanecer en el poder hasta finales de 2027 depende en gran medida de su habilidad para mantener el apoyo de Junts y gestionar las tensiones dentro de su coalición. Aunque la economía favorable y la falta de una alternativa clara de gobierno son factores que juegan a su favor, la inestabilidad de Junts y la falta de nuevos presupuestos representan desafíos significativos. La posibilidad de una cuestión de confianza también está sobre la mesa si Sánchez pierde el control parlamentario.\n"
+}
