@@ -1,0 +1,160 @@
+[
+  {
+    "agent_id": 0,
+    "name": "Will Escribano",
+    "entity_type": "person",
+    "role": "President of Indra",
+    "objectives": [
+      "Maintain leadership stability",
+      "Strengthen relationships with shareholders",
+      "Enhance collaboration with the Spanish Government"
+    ],
+    "personality": "decisive and strategic",
+    "stance": "supportive",
+    "influence_weight": 0.9,
+    "activity_level": 0.5,
+    "initial_knowledge": "aware of internal and external pressures",
+    "memory": []
+  },
+  {
+    "agent_id": 1,
+    "name": "EM&E",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.9,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 2,
+    "name": "SEPI",
+    "entity_type": "institution",
+    "role": "",
+    "objectives": [
+      "Oppose management decisions at Indra",
+      "Influence corporate governance",
+      "Protect state interests"
+    ],
+    "personality": "",
+    "stance": "opposing",
+    "influence_weight": 0.85,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 3,
+    "name": "Indra",
+    "entity_type": "organization",
+    "role": "President",
+    "objectives": [],
+    "personality": "",
+    "stance": "neutral",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 4,
+    "name": "Pedro Sánchez",
+    "entity_type": "person",
+    "role": "Spanish Prime Minister",
+    "objectives": [],
+    "personality": "",
+    "stance": "opposing",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 5,
+    "name": "Spanish Government",
+    "entity_type": "institution",
+    "role": "institution",
+    "objectives": [
+      "Seek control over defense companies",
+      "Regulate defense industry practices",
+      "Ensure national security through oversight"
+    ],
+    "personality": "",
+    "stance": "opposing",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 6,
+    "name": "T. Rowe Price",
+    "entity_type": "fund",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.75,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 7,
+    "name": "Belén Gualda",
+    "entity_type": "person",
+    "role": "President of SEPI",
+    "objectives": [
+      "Lead pressure against Escribano",
+      "Influence corporate governance",
+      "Ensure accountability in leadership"
+    ],
+    "personality": "assertive",
+    "stance": "opposing",
+    "influence_weight": 0.75,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 8,
+    "name": "José Vicente de los Mozos",
+    "entity_type": "person",
+    "role": "CEO of Indra",
+    "objectives": [],
+    "personality": "",
+    "stance": "neutral",
+    "influence_weight": 0.7,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 9,
+    "name": "Manuel de la Rocha",
+    "entity_type": "person",
+    "role": "Government official",
+    "objectives": [
+      "Oppose Escribano's leadership",
+      "Promote government interests",
+      "Ensure accountability in corporate governance"
+    ],
+    "personality": "Assertive",
+    "stance": "opposing",
+    "influence_weight": 0.7,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  }
+]

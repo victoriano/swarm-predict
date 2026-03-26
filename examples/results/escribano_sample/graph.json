@@ -1,0 +1,227 @@
+{
+  "entities": [
+    {
+      "name": "Will Escribano",
+      "entity_type": "person",
+      "description": "President of Indra since 2024, co-owner of EM&E",
+      "stance": "supportive",
+      "influence": 0.9
+    },
+    {
+      "name": "Indra",
+      "entity_type": "organization",
+      "description": "Spain's main tech and Defense company",
+      "stance": "neutral",
+      "influence": 0.8
+    },
+    {
+      "name": "SEPI",
+      "entity_type": "institution",
+      "description": "State holding with a 28% stake in Indra",
+      "stance": "opposing",
+      "influence": 0.85
+    },
+    {
+      "name": "T. Rowe Price",
+      "entity_type": "fund",
+      "description": "International fund with a 5.009% stake in Indra",
+      "stance": "supportive",
+      "influence": 0.75
+    },
+    {
+      "name": "José Vicente de los Mozos",
+      "entity_type": "person",
+      "description": "CEO of Indra since 2023",
+      "stance": "neutral",
+      "influence": 0.7
+    },
+    {
+      "name": "Pedro Sánchez",
+      "entity_type": "person",
+      "description": "Spanish Prime Minister",
+      "stance": "opposing",
+      "influence": 0.8
+    },
+    {
+      "name": "Belén Gualda",
+      "entity_type": "person",
+      "description": "President of SEPI, leading pressure against Escribano",
+      "stance": "opposing",
+      "influence": 0.75
+    },
+    {
+      "name": "EM&E",
+      "entity_type": "organization",
+      "description": "Escribano family company",
+      "stance": "supportive",
+      "influence": 0.9
+    },
+    {
+      "name": "Independent board members",
+      "entity_type": "group",
+      "description": "Board members whose votes are crucial for Escribano's position",
+      "stance": "divided",
+      "influence": 0.6
+    },
+    {
+      "name": "Miguel Sebastián",
+      "entity_type": "person",
+      "description": "SEPI board representative",
+      "stance": "opposing",
+      "influence": 0.65
+    },
+    {
+      "name": "Antonio Cuevas",
+      "entity_type": "person",
+      "description": "SEPI board representative",
+      "stance": "opposing",
+      "influence": 0.65
+    },
+    {
+      "name": "Juan Moscoso",
+      "entity_type": "person",
+      "description": "SEPI board representative",
+      "stance": "opposing",
+      "influence": 0.65
+    },
+    {
+      "name": "Manuel de la Rocha",
+      "entity_type": "person",
+      "description": "Government official who asked Escribano to resign",
+      "stance": "opposing",
+      "influence": 0.7
+    },
+    {
+      "name": "Spanish Government",
+      "entity_type": "institution",
+      "description": "Government body seeking control over defense companies",
+      "stance": "opposing",
+      "influence": 0.8
+    },
+    {
+      "name": "Shareholders",
+      "entity_type": "group",
+      "description": "Investors in Indra including SEPI and T. Rowe Price",
+      "stance": "divided",
+      "influence": 0.7
+    },
+    {
+      "name": "CNMV",
+      "entity_type": "institution",
+      "description": "Spanish stock market regulator",
+      "stance": "neutral",
+      "influence": 0.5
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Will Escribano",
+      "target": "Indra",
+      "relation": "PRESIDENT_OF",
+      "description": "Escribano is the president of Indra."
+    },
+    {
+      "source": "SEPI",
+      "target": "Indra",
+      "relation": "OWNS_STAKE",
+      "description": "SEPI owns a 28% stake in Indra."
+    },
+    {
+      "source": "T. Rowe Price",
+      "target": "Indra",
+      "relation": "OWNS_STAKE",
+      "description": "T. Rowe Price owns a 5.009% stake in Indra."
+    },
+    {
+      "source": "José Vicente de los Mozos",
+      "target": "Indra",
+      "relation": "CEO_OF",
+      "description": "De los Mozos is the CEO of Indra."
+    },
+    {
+      "source": "Pedro Sánchez",
+      "target": "Will Escribano",
+      "relation": "ASKS_TO_RESIGN",
+      "description": "Sánchez asked Escribano to resign."
+    },
+    {
+      "source": "Belén Gualda",
+      "target": "Will Escribano",
+      "relation": "PRESSURES",
+      "description": "Gualda leads the pressure campaign against Escribano."
+    },
+    {
+      "source": "EM&E",
+      "target": "Will Escribano",
+      "relation": "OWNED_BY",
+      "description": "EM&E is owned by the Escribano family."
+    },
+    {
+      "source": "Independent board members",
+      "target": "Will Escribano",
+      "relation": "DECISIVE_VOTE",
+      "description": "Their vote is crucial for Escribano's position."
+    },
+    {
+      "source": "Miguel Sebastián",
+      "target": "SEPI",
+      "relation": "REPRESENTS",
+      "description": "Sebastián is a representative on the SEPI board."
+    },
+    {
+      "source": "Antonio Cuevas",
+      "target": "SEPI",
+      "relation": "REPRESENTS",
+      "description": "Cuevas is a representative on the SEPI board."
+    },
+    {
+      "source": "Juan Moscoso",
+      "target": "SEPI",
+      "relation": "REPRESENTS",
+      "description": "Moscoso is a representative on the SEPI board."
+    },
+    {
+      "source": "Manuel de la Rocha",
+      "target": "Will Escribano",
+      "relation": "ASKS_TO_RESIGN",
+      "description": "De la Rocha asked Escribano to resign."
+    },
+    {
+      "source": "Spanish Government",
+      "target": "Will Escribano",
+      "relation": "SEEKS_CONTROL",
+      "description": "The government seeks control over defense companies."
+    },
+    {
+      "source": "Shareholders",
+      "target": "Will Escribano",
+      "relation": "DIVIDED_ON",
+      "description": "Shareholders are divided on Escribano's leadership."
+    },
+    {
+      "source": "CNMV",
+      "target": "SEPI",
+      "relation": "RECEIVES_STATEMENT_FROM",
+      "description": "SEPI issued a statement to CNMV."
+    },
+    {
+      "source": "EM&E",
+      "target": "Indra",
+      "relation": "WITHDRAWS_FROM_INTEGRATION",
+      "description": "EM&E withdrew from integration with Indra."
+    },
+    {
+      "source": "Indra",
+      "target": "José Vicente de los Mozos",
+      "relation": "CEO_CONTRACT_EXPIRES",
+      "description": "De los Mozos's contract expires in June 2026."
+    },
+    {
+      "source": "SEPI",
+      "target": "Will Escribano",
+      "relation": "PRESSURES_OUT",
+      "description": "SEPI is pressuring Escribano to resign."
+    }
+  ],
+  "enrichment_context": ""
+}

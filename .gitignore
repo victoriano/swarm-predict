@@ -21,6 +21,8 @@ Thumbs.db
 
 # Results (keep examples, ignore user runs)
 results/
+!examples/results/
 
 # UV
 uv.lock
+!examples/results/escribano_sample/
