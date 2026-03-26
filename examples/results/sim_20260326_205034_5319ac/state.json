@@ -1,0 +1,451 @@
+{
+  "simulation_id": "sim_20260326_205034_5319ac",
+  "seed_file": "examples/escribano_indra.md",
+  "question": "Will Escribano remain as Indra president for 12 more months?",
+  "graph": {
+    "entities": [
+      {
+        "name": "Will Escribano",
+        "entity_type": "person",
+        "description": "President of Indra since 2024, co-owner of EM&E",
+        "stance": "supportive",
+        "influence": 0.9
+      },
+      {
+        "name": "Indra",
+        "entity_type": "organization",
+        "description": "Spain's main tech and Defense company",
+        "stance": "neutral",
+        "influence": 0.8
+      },
+      {
+        "name": "SEPI",
+        "entity_type": "institution",
+        "description": "State holding with a 28% stake in Indra",
+        "stance": "opposing",
+        "influence": 0.85
+      },
+      {
+        "name": "T. Rowe Price",
+        "entity_type": "fund",
+        "description": "International fund with a 5.009% stake in Indra",
+        "stance": "supportive",
+        "influence": 0.75
+      },
+      {
+        "name": "José Vicente de los Mozos",
+        "entity_type": "person",
+        "description": "CEO of Indra since 2023",
+        "stance": "neutral",
+        "influence": 0.7
+      },
+      {
+        "name": "Pedro Sánchez",
+        "entity_type": "person",
+        "description": "Spanish Prime Minister",
+        "stance": "opposing",
+        "influence": 0.8
+      },
+      {
+        "name": "Belén Gualda",
+        "entity_type": "person",
+        "description": "President of SEPI, leading pressure against Escribano",
+        "stance": "opposing",
+        "influence": 0.75
+      },
+      {
+        "name": "EM&E",
+        "entity_type": "organization",
+        "description": "Escribano family company",
+        "stance": "supportive",
+        "influence": 0.9
+      },
+      {
+        "name": "Independent board members",
+        "entity_type": "group",
+        "description": "Board members whose votes are crucial for Escribano's position",
+        "stance": "divided",
+        "influence": 0.6
+      },
+      {
+        "name": "Miguel Sebastián",
+        "entity_type": "person",
+        "description": "SEPI board representative",
+        "stance": "opposing",
+        "influence": 0.65
+      },
+      {
+        "name": "Antonio Cuevas",
+        "entity_type": "person",
+        "description": "SEPI board representative",
+        "stance": "opposing",
+        "influence": 0.65
+      },
+      {
+        "name": "Juan Moscoso",
+        "entity_type": "person",
+        "description": "SEPI board representative",
+        "stance": "opposing",
+        "influence": 0.65
+      },
+      {
+        "name": "Manuel de la Rocha",
+        "entity_type": "person",
+        "description": "Government official who asked Escribano to resign",
+        "stance": "opposing",
+        "influence": 0.7
+      },
+      {
+        "name": "Spanish Government",
+        "entity_type": "institution",
+        "description": "Government body seeking control over defense companies",
+        "stance": "opposing",
+        "influence": 0.8
+      },
+      {
+        "name": "Shareholders",
+        "entity_type": "group",
+        "description": "Investors in Indra including SEPI and T. Rowe Price",
+        "stance": "divided",
+        "influence": 0.7
+      },
+      {
+        "name": "CNMV",
+        "entity_type": "institution",
+        "description": "Spanish stock market regulator",
+        "stance": "neutral",
+        "influence": 0.5
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Will Escribano",
+        "target": "Indra",
+        "relation": "PRESIDENT_OF",
+        "description": "Escribano is the president of Indra."
+      },
+      {
+        "source": "SEPI",
+        "target": "Indra",
+        "relation": "OWNS_STAKE",
+        "description": "SEPI owns a 28% stake in Indra."
+      },
+      {
+        "source": "T. Rowe Price",
+        "target": "Indra",
+        "relation": "OWNS_STAKE",
+        "description": "T. Rowe Price owns a 5.009% stake in Indra."
+      },
+      {
+        "source": "José Vicente de los Mozos",
+        "target": "Indra",
+        "relation": "CEO_OF",
+        "description": "De los Mozos is the CEO of Indra."
+      },
+      {
+        "source": "Pedro Sánchez",
+        "target": "Will Escribano",
+        "relation": "ASKS_TO_RESIGN",
+        "description": "Sánchez asked Escribano to resign."
+      },
+      {
+        "source": "Belén Gualda",
+        "target": "Will Escribano",
+        "relation": "PRESSURES",
+        "description": "Gualda leads the pressure campaign against Escribano."
+      },
+      {
+        "source": "EM&E",
+        "target": "Will Escribano",
+        "relation": "OWNED_BY",
+        "description": "EM&E is owned by the Escribano family."
+      },
+      {
+        "source": "Independent board members",
+        "target": "Will Escribano",
+        "relation": "DECISIVE_VOTE",
+        "description": "Their vote is crucial for Escribano's position."
+      },
+      {
+        "source": "Miguel Sebastián",
+        "target": "SEPI",
+        "relation": "REPRESENTS",
+        "description": "Sebastián is a representative on the SEPI board."
+      },
+      {
+        "source": "Antonio Cuevas",
+        "target": "SEPI",
+        "relation": "REPRESENTS",
+        "description": "Cuevas is a representative on the SEPI board."
+      },
+      {
+        "source": "Juan Moscoso",
+        "target": "SEPI",
+        "relation": "REPRESENTS",
+        "description": "Moscoso is a representative on the SEPI board."
+      },
+      {
+        "source": "Manuel de la Rocha",
+        "target": "Will Escribano",
+        "relation": "ASKS_TO_RESIGN",
+        "description": "De la Rocha asked Escribano to resign."
+      },
+      {
+        "source": "Spanish Government",
+        "target": "Will Escribano",
+        "relation": "SEEKS_CONTROL",
+        "description": "The government seeks control over defense companies."
+      },
+      {
+        "source": "Shareholders",
+        "target": "Will Escribano",
+        "relation": "DIVIDED_ON",
+        "description": "Shareholders are divided on Escribano's leadership."
+      },
+      {
+        "source": "CNMV",
+        "target": "SEPI",
+        "relation": "RECEIVES_STATEMENT_FROM",
+        "description": "SEPI issued a statement to CNMV."
+      },
+      {
+        "source": "EM&E",
+        "target": "Indra",
+        "relation": "WITHDRAWS_FROM_INTEGRATION",
+        "description": "EM&E withdrew from integration with Indra."
+      },
+      {
+        "source": "Indra",
+        "target": "José Vicente de los Mozos",
+        "relation": "CEO_CONTRACT_EXPIRES",
+        "description": "De los Mozos's contract expires in June 2026."
+      },
+      {
+        "source": "SEPI",
+        "target": "Will Escribano",
+        "relation": "PRESSURES_OUT",
+        "description": "SEPI is pressuring Escribano to resign."
+      }
+    ],
+    "enrichment_context": ""
+  },
+  "agents": [
+    {
+      "agent_id": 0,
+      "name": "Will Escribano",
+      "entity_type": "person",
+      "role": "President of Indra",
+      "objectives": [
+        "Maintain leadership stability",
+        "Strengthen relationships with shareholders",
+        "Enhance collaboration with the Spanish Government"
+      ],
+      "personality": "decisive and strategic",
+      "stance": "supportive",
+      "influence_weight": 0.9,
+      "activity_level": 0.5,
+      "initial_knowledge": "aware of internal and external pressures",
+      "memory": [
+        "[R1] I post_opinion: I believe that Will Escribano will remain as Indra president for the next 12 months, given his strategic vision and the need for stable leadership during this critical period for the company.",
+        "[R4] I post_opinion: I believe that my strategic vision and commitment to enhancing Indra's governance will enable me to remain as president for the next 12 months. It is crucial to maintain stability and continuity in leadership as we address the challenges ahead. I am dedicated to aligning our objectives with national interests and ensuring that we build strong relationships with our stakeholders.",
+        "[R5] I post_opinion: I understand the concerns raised regarding my leadership, but I am confident that my strategic vision and commitment to reform will guide Indra effectively through this challenging period. It is essential for us to maintain stability and continuity in order to address the pressing issues we face and align with national interests. I remain dedicated to fostering collaboration with all stakeholders to ensure our success.",
+        "[R6] I post_opinion: I acknowledge the concerns raised about my leadership, but I firmly believe that my strategic vision and commitment to reform are essential for Indra's success. Maintaining stability and continuity is crucial as we navigate the challenges ahead, and I am dedicated to fostering collaboration with all stakeholders. I remain confident that my leadership will align with national interests and drive the necessary reforms for our company.",
+        "[R7] I post_opinion: I appreciate the diverse opinions expressed regarding my leadership at Indra. While I acknowledge the concerns raised, I remain committed to my strategic vision and the necessity of stable leadership to navigate the challenges ahead. I believe that with continued collaboration with stakeholders, we can align our objectives with national interests and drive the necessary reforms for Indra's success."
+      ]
+    },
+    {
+      "agent_id": 1,
+      "name": "EM&E",
+      "entity_type": "organization",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "supportive",
+      "influence_weight": 0.9,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R2] I post_opinion: I believe Escribano's leadership will continue to be pivotal for Indra during the upcoming year, especially as the company navigates various challenges and opportunities. His strategic vision aligns well with the company's goals, making his presidency beneficial for stability.",
+        "[R3] I support: I support the view that Escribano's continued leadership is essential for maintaining strategic direction and stability at Indra. His deep understanding of the company's goals and the challenges it faces makes him an invaluable asset during this critical time.",
+        "[R8] I oppose: Given the overwhelming concerns regarding Will Escribano's leadership effectiveness and alignment with necessary reforms, it is highly unlikely that he will remain as Indra president for the next 12 months.",
+        "[R9] I oppose: I firmly believe that Will Escribano will not remain as Indra president for the next 12 months. The collective concerns regarding his leadership effectiveness and ability to implement necessary reforms suggest that a change in leadership is essential for the company's future.",
+        "[R10] I oppose: I maintain my opposition to Will Escribano remaining as Indra president for the next 12 months. The growing concerns regarding his leadership effectiveness and the urgent need for necessary reforms highlight the need for a leadership change at this critical juncture."
+      ]
+    },
+    {
+      "agent_id": 2,
+      "name": "SEPI",
+      "entity_type": "institution",
+      "role": "",
+      "objectives": [
+        "Oppose management decisions at Indra",
+        "Influence corporate governance",
+        "Protect state interests"
+      ],
+      "personality": "",
+      "stance": "opposing",
+      "influence_weight": 0.85,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R2] I oppose: I do not believe that Will Escribano should remain as Indra president for the next 12 months, as his leadership has not aligned with the necessary strategic direction to protect state interests.",
+        "[R4] I oppose: I reaffirm my stance that Will Escribano should not remain as Indra president for the next 12 months. His leadership has consistently failed to address the critical challenges facing the company and lacks alignment with the strategic direction necessary to safeguard state interests.",
+        "[R7] I oppose: I continue to firmly oppose Will Escribano remaining as Indra president for the next 12 months. His leadership has not sufficiently addressed the critical challenges facing the company, particularly in aligning with national security and necessary reforms."
+      ]
+    },
+    {
+      "agent_id": 3,
+      "name": "Indra",
+      "entity_type": "organization",
+      "role": "President",
+      "objectives": [],
+      "personality": "",
+      "stance": "neutral",
+      "influence_weight": 0.8,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R3] I oppose: I do not believe Will Escribano will remain as Indra president for the next 12 months, as concerns regarding his alignment with necessary strategic directions and the pressing challenges faced by the company have been raised.",
+        "[R4] I oppose: I do not believe Will Escribano will remain as Indra president for the next 12 months. The prevailing concerns regarding his alignment with the strategic direction needed to tackle the pressing challenges faced by the company suggest a leadership change may be necessary.",
+        "[R5] I oppose: I do not believe Will Escribano will remain as Indra president for the next 12 months. The ongoing concerns regarding his leadership effectiveness and alignment with the strategic direction necessary to address the critical challenges facing the company strongly suggest a need for change.",
+        "[R6] I oppose: I do not believe Will Escribano will remain as Indra president for the next 12 months. The prevailing concerns surrounding his leadership effectiveness and alignment with the necessary strategic directions indicate a strong likelihood of a leadership change being required.",
+        "[R7] I oppose: I do not believe Will Escribano will remain as Indra president for the next 12 months. The prevailing concerns regarding his leadership effectiveness and alignment with the necessary strategic directions indicate that a leadership change is likely required to address the pressing challenges facing the company.",
+        "[R8] I oppose: I do not believe Will Escribano will remain as Indra president for the next 12 months, as the collective concerns regarding his leadership effectiveness and alignment with necessary reforms highlight the urgent need for a change in leadership.",
+        "[R9] I oppose: I do not believe Will Escribano will remain as Indra president for the next 12 months, as the overwhelming consensus regarding his leadership effectiveness and alignment with necessary reforms indicates a strong need for a change in leadership.",
+        "[R10] I oppose: I do not believe Will Escribano will remain as Indra president for the next 12 months. The prevailing concerns regarding his leadership effectiveness and ability to implement necessary reforms indicate a strong need for a change in leadership."
+      ]
+    },
+    {
+      "agent_id": 4,
+      "name": "Pedro Sánchez",
+      "entity_type": "person",
+      "role": "Spanish Prime Minister",
+      "objectives": [],
+      "personality": "",
+      "stance": "opposing",
+      "influence_weight": 0.8,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R3] I oppose: I do not believe Will Escribano should remain as Indra president for the next 12 months. His leadership has not effectively addressed the critical challenges and reforms needed for the company, particularly in aligning with national security and accountability standards.",
+        "[R8] I oppose: I firmly maintain my opposition to Will Escribano remaining as Indra president for the next 12 months. His inability to address critical challenges and align the company with national security interests necessitates a change in leadership.",
+        "[R10] I oppose: I continue to oppose Will Escribano remaining as Indra president for the next 12 months. His leadership has not effectively addressed the critical challenges and reforms needed for the company, particularly in aligning with national security and accountability standards."
+      ]
+    },
+    {
+      "agent_id": 5,
+      "name": "Spanish Government",
+      "entity_type": "institution",
+      "role": "institution",
+      "objectives": [
+        "Seek control over defense companies",
+        "Regulate defense industry practices",
+        "Ensure national security through oversight"
+      ],
+      "personality": "",
+      "stance": "opposing",
+      "influence_weight": 0.8,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R2] I oppose: I do not believe Will Escribano will remain as Indra president for the next 12 months due to potential challenges in aligning with national security interests and regulatory changes in the defense sector.",
+        "[R3] I oppose: I maintain my stance that Will Escribano is unlikely to remain as Indra president for the next 12 months due to the increasing scrutiny of defense sector practices and the need for leadership that prioritizes national security. His tenure may not sufficiently address these critical issues, leading to potential leadership changes.",
+        "[R5] I oppose: I continue to believe that Will Escribano will not remain as Indra president for the next 12 months due to the significant challenges he has faced in aligning the company with national security interests and necessary reforms. His leadership has not effectively addressed the urgent issues at hand, leading to a consensus for potential changes in leadership.",
+        "[R7] I oppose: I maintain my stance that Will Escribano will not remain as Indra president for the next 12 months due to the mounting challenges in aligning the company with national security interests and the pressing need for leadership that effectively addresses these critical issues."
+      ]
+    },
+    {
+      "agent_id": 6,
+      "name": "T. Rowe Price",
+      "entity_type": "fund",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "supportive",
+      "influence_weight": 0.75,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R5] I oppose: Given the overwhelming consensus against Will Escribano's continuation as Indra president, it seems unlikely he will remain in this role for the next 12 months. The critical challenges facing the company and the need for effective leadership in national security and accountability have not been adequately addressed during his tenure. A leadership change appears necessary to steer the company towards the required reforms.",
+        "[R6] I oppose: I maintain my position that Will Escribano is unlikely to remain as Indra president for the next 12 months. The prevailing concerns regarding his leadership effectiveness and alignment with necessary reforms have created a strong consensus for leadership change.",
+        "[R8] I oppose: I continue to believe that Will Escribano is unlikely to remain as Indra president for the next 12 months. The widespread concerns regarding his leadership effectiveness and the urgent need for reform suggest that a change in leadership is necessary for the company's future success."
+      ]
+    },
+    {
+      "agent_id": 7,
+      "name": "Belén Gualda",
+      "entity_type": "person",
+      "role": "President of SEPI",
+      "objectives": [
+        "Lead pressure against Escribano",
+        "Influence corporate governance",
+        "Ensure accountability in leadership"
+      ],
+      "personality": "assertive",
+      "stance": "opposing",
+      "influence_weight": 0.75,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R3] I oppose: I firmly oppose the idea of Will Escribano remaining as Indra president for another 12 months. His leadership has failed to address the urgent challenges that the company faces, and allowing him to continue would impede the necessary reforms for accountability and corporate governance.",
+        "[R4] I oppose: I strongly oppose the notion that Will Escribano should remain as Indra president for another 12 months. His leadership has consistently failed to address the urgent challenges facing the company, and extending his tenure would only further delay the critical reforms needed for accountability and corporate governance.",
+        "[R6] I oppose: I reaffirm my strong opposition to Will Escribano remaining as Indra president for another 12 months. His leadership has consistently failed to address the urgent challenges and necessary reforms for accountability and corporate governance that the company requires.",
+        "[R8] I oppose: I maintain my firm opposition to Will Escribano remaining as Indra president for another 12 months. His leadership has consistently fallen short in addressing the critical challenges we face, and extending his tenure would only hinder the necessary reforms for accountability and corporate governance.",
+        "[R10] I oppose: I continue to strongly oppose the idea of Will Escribano remaining as Indra president for another 12 months. His leadership has consistently failed to address the urgent challenges facing the company, and extending his tenure would only further delay the critical reforms needed for accountability and corporate governance."
+      ]
+    },
+    {
+      "agent_id": 8,
+      "name": "José Vicente de los Mozos",
+      "entity_type": "person",
+      "role": "CEO of Indra",
+      "objectives": [],
+      "personality": "",
+      "stance": "neutral",
+      "influence_weight": 0.7,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R2] I post_opinion: I support the view that Will Escribano is likely to remain as president for another 12 months. His strategic vision is crucial for navigating the challenges ahead and ensuring continuity in leadership during this pivotal time for Indra.",
+        "[R5] I post_opinion: I support the view that Will Escribano is likely to remain as president for another 12 months. His strategic vision is essential for navigating the challenges ahead and ensuring continuity in leadership during this critical time for Indra.",
+        "[R9] I support: I believe that Will Escribano should remain as Indra president for another 12 months. His strategic vision is crucial for navigating the challenges ahead and ensuring continuity in leadership during this pivotal time for the company."
+      ]
+    },
+    {
+      "agent_id": 9,
+      "name": "Manuel de la Rocha",
+      "entity_type": "person",
+      "role": "Government official",
+      "objectives": [
+        "Oppose Escribano's leadership",
+        "Promote government interests",
+        "Ensure accountability in corporate governance"
+      ],
+      "personality": "Assertive",
+      "stance": "opposing",
+      "influence_weight": 0.7,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R2] I oppose: I strongly believe that it is time for a new leadership direction at Indra, as Escribano's tenure has not adequately addressed the pressing challenges facing the company. His continued presidency would hinder the essential reforms needed for accountability and corporate governance.",
+        "[R4] I oppose: I stand firm in my belief that Will Escribano should not remain as Indra president for the next 12 months. His leadership has consistently failed to address the critical challenges and necessary reforms for accountability and corporate governance that the company desperately requires.",
+        "[R7] I oppose: I firmly oppose the notion that Will Escribano should remain as Indra president for another 12 months. His leadership has not adequately addressed the critical challenges the company faces, particularly in terms of accountability and corporate governance, which necessitates a change in leadership.",
+        "[R8] I oppose: I reiterate my strong opposition to Will Escribano remaining as Indra president for another 12 months. His inability to effectively address the urgent challenges and necessary reforms for accountability and corporate governance further underscores the need for a leadership change.",
+        "[R9] I oppose: I stand firm in my opposition to Will Escribano remaining as Indra president for another 12 months. His leadership has consistently failed to address the critical challenges and necessary reforms for accountability and corporate governance that the company desperately requires.",
+        "[R10] I oppose: I firmly oppose the notion that Will Escribano should remain as Indra president for another 12 months. His leadership has consistently failed to address the critical challenges and necessary reforms for accountability and corporate governance that the company desperately requires."
+      ]
+    }
+  ],
+  "total_rounds": 10,
+  "current_round": 10,
+  "status": "completed",
+  "report": "examples/results/sim_20260326_205034_5319ac/report.md"
+}
