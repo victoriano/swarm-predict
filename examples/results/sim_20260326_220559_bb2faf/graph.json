@@ -1,0 +1,254 @@
+{
+  "entities": [
+    {
+      "name": "Google",
+      "entity_type": "organization",
+      "description": "Big Tech company reducing headcount, significant AI-generated code.",
+      "stance": "neutral",
+      "influence": 0.9
+    },
+    {
+      "name": "Meta",
+      "entity_type": "organization",
+      "description": "Big Tech company that cut 20% of its engineering workforce.",
+      "stance": "neutral",
+      "influence": 0.8
+    },
+    {
+      "name": "Microsoft",
+      "entity_type": "organization",
+      "description": "Big Tech company involved in AI development.",
+      "stance": "neutral",
+      "influence": 0.8
+    },
+    {
+      "name": "Amazon",
+      "entity_type": "organization",
+      "description": "Big Tech company involved in AI development.",
+      "stance": "neutral",
+      "influence": 0.8
+    },
+    {
+      "name": "Apple",
+      "entity_type": "organization",
+      "description": "Big Tech company involved in AI development.",
+      "stance": "neutral",
+      "influence": 0.8
+    },
+    {
+      "name": "Sundar Pichai",
+      "entity_type": "person",
+      "description": "CEO of Google, mentioned AI-generated code statistics.",
+      "stance": "neutral",
+      "influence": 0.7
+    },
+    {
+      "name": "GitHub Copilot",
+      "entity_type": "organization",
+      "description": "AI coding tool that automates coding tasks.",
+      "stance": "supportive",
+      "influence": 0.85
+    },
+    {
+      "name": "Claude Code",
+      "entity_type": "organization",
+      "description": "AI coding tool developed by Anthropic.",
+      "stance": "supportive",
+      "influence": 0.85
+    },
+    {
+      "name": "Cursor",
+      "entity_type": "organization",
+      "description": "AI-native IDE gaining rapid adoption.",
+      "stance": "supportive",
+      "influence": 0.75
+    },
+    {
+      "name": "Codex",
+      "entity_type": "organization",
+      "description": "AI coding tool developed by OpenAI.",
+      "stance": "supportive",
+      "influence": 0.85
+    },
+    {
+      "name": "Devin",
+      "entity_type": "organization",
+      "description": "First 'AI software engineer' capable of end-to-end tasks.",
+      "stance": "supportive",
+      "influence": 0.7
+    },
+    {
+      "name": "Tech Companies",
+      "entity_type": "group",
+      "description": "Employers in the software engineering sector.",
+      "stance": "neutral",
+      "influence": 0.8
+    },
+    {
+      "name": "Software Engineers",
+      "entity_type": "group",
+      "description": "Professionals working in software development.",
+      "stance": "divided",
+      "influence": 0.8
+    },
+    {
+      "name": "Jevons Paradox",
+      "entity_type": "concept",
+      "description": "Economic theory suggesting increased consumption with cheaper resources.",
+      "stance": "neutral",
+      "influence": 0.6
+    },
+    {
+      "name": "EU AI Act",
+      "entity_type": "regulation",
+      "description": "Regulation that may slow AI adoption in Europe.",
+      "stance": "neutral",
+      "influence": 0.7
+    },
+    {
+      "name": "US Bureau of Labor Statistics",
+      "entity_type": "institution",
+      "description": "Projects growth in software developer roles.",
+      "stance": "neutral",
+      "influence": 0.8
+    },
+    {
+      "name": "Freelance Platforms",
+      "entity_type": "group",
+      "description": "Platforms reporting declining rates for routine coding tasks.",
+      "stance": "neutral",
+      "influence": 0.6
+    },
+    {
+      "name": "Coding Bootcamps",
+      "entity_type": "group",
+      "description": "Many are pivoting to AI-assisted development curricula.",
+      "stance": "neutral",
+      "influence": 0.5
+    },
+    {
+      "name": "Self-taught Developers",
+      "entity_type": "group",
+      "description": "Individuals learning to code independently, now using AI tools.",
+      "stance": "supportive",
+      "influence": 0.7
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Google",
+      "target": "AI-generated code",
+      "relation": "produces",
+      "description": "Google produces a significant portion of AI-generated code."
+    },
+    {
+      "source": "Meta",
+      "target": "engineering workforce",
+      "relation": "reduces",
+      "description": "Meta has reduced its engineering workforce by 20%."
+    },
+    {
+      "source": "Tech Companies",
+      "target": "AI tools",
+      "relation": "adopts",
+      "description": "Tech companies are adopting AI tools to enhance productivity."
+    },
+    {
+      "source": "AI Tool Makers",
+      "target": "Software Engineers",
+      "relation": "supports",
+      "description": "AI tool makers support software engineers by automating tasks."
+    },
+    {
+      "source": "AI tools",
+      "target": "Junior Engineers",
+      "relation": "threatens",
+      "description": "AI tools threaten the job security of junior engineers."
+    },
+    {
+      "source": "Jevons Paradox",
+      "target": "software demand",
+      "relation": "increases",
+      "description": "Jevons Paradox suggests that cheaper software creation increases overall demand."
+    },
+    {
+      "source": "Freelance Platforms",
+      "target": "routine coding tasks",
+      "relation": "declines",
+      "description": "Freelance platforms report declining rates for routine coding tasks."
+    },
+    {
+      "source": "Software Engineers",
+      "target": "AI tools",
+      "relation": "learns",
+      "description": "Software engineers are learning to work with AI tools."
+    },
+    {
+      "source": "Coding Bootcamps",
+      "target": "AI-assisted development",
+      "relation": "pivots to",
+      "description": "Coding bootcamps are pivoting to AI-assisted development curricula."
+    },
+    {
+      "source": "Self-taught Developers",
+      "target": "AI tools",
+      "relation": "utilizes",
+      "description": "Self-taught developers are utilizing AI tools to build applications."
+    },
+    {
+      "source": "US Bureau of Labor Statistics",
+      "target": "software developer roles",
+      "relation": "projects",
+      "description": "The US Bureau of Labor Statistics projects growth in software developer roles."
+    },
+    {
+      "source": "AI Tool Makers",
+      "target": "Tech Companies",
+      "relation": "provides",
+      "description": "AI tool makers provide tools to tech companies."
+    },
+    {
+      "source": "Senior Engineers",
+      "target": "AI tools",
+      "relation": "augments",
+      "description": "AI tools augment the productivity of senior engineers."
+    },
+    {
+      "source": "Entry-level jobs",
+      "target": "AI tools",
+      "relation": "are at risk from",
+      "description": "Entry-level jobs are at risk from the capabilities of AI tools."
+    },
+    {
+      "source": "Economic cycles",
+      "target": "tech employment",
+      "relation": "affects",
+      "description": "Economic cycles affect tech employment rates."
+    },
+    {
+      "source": "Regulatory response",
+      "target": "AI deployment",
+      "relation": "may influence",
+      "description": "Regulatory responses may influence the pace of AI deployment."
+    },
+    {
+      "source": "AI tools",
+      "target": "software development",
+      "relation": "makes cheaper",
+      "description": "AI tools make software development cheaper."
+    },
+    {
+      "source": "Software Engineers",
+      "target": "new job categories",
+      "relation": "may emerge from",
+      "description": "New job categories may emerge from the use of AI in software engineering."
+    },
+    {
+      "source": "Historical Parallels",
+      "target": "current scenario",
+      "relation": "suggests",
+      "description": "Historical parallels suggest that technology can lead to increased employment."
+    }
+  ],
+  "enrichment_context": "Okay, let's analyze the potential impact of AI on software engineering employment in the next 5 years, based on the provided scenario and incorporating current data points.\n\nIt's a complex issue with arguments for both decreasing and increasing employment. Here's a breakdown of the key factors and potential outcomes:\n\n**Arguments for Potential Decrease in Software Engineering Employment:**\n\n*   **AI-powered coding tools are becoming increasingly capable:** Tools like GitHub Copilot, Claude Code, Cursor, Devin, and others are automating routine coding tasks, debugging, and even feature implementation. Google's CEO mentioned that a significant portion (25%+) of new code at Google is AI-generated.\n*   **Startups are leveraging AI to reduce team size:** Many new companies are being built with smaller teams than previously required, using AI to augment their capabilities.\n*   **Layoffs in the tech industry:** Big Tech companies have already reduced headcount.\n*   **Entry-level jobs are most at risk:** AI is capable of handling many entry-level tasks, leading to a decline in entry-level software job postings.\n*   **Freelance rates declining:** Freelance platforms are reporting declining rates for routine coding tasks.\n*   **Slower hiring in some sectors:** India's IT sector is reporting slower hiring and increased AI tool adoption.\n\n**Arguments for Potential Increase or Shift in Software Engineering Employment:**\n\n*   **Overall software demand is growing:** Every company is becoming a software company, driving demand for software solutions.\n*   **Jevons Paradox:** As AI makes software development cheaper, more software may be built, increasing overall demand.\n*   **AI augments senior engineers:** AI tools amplify the productivity of senior engineers, who are still needed for architecture, system design, and complex problem-solving.\n*   **New roles will emerge:** AI will likely create new job categories that are difficult to predict today. \"Prompt engineering\" and \"AI-augmented development\" are becoming new skills.\n*   **Historical parallels:** Previous technological advancements (ATMs, spreadsheets, cloud computing, open source) initially feared to displace workers ultimately led to new opportunities and increased employment in related fields.\n*   **Reskilling:** Existing developers are learning to work with AI tools.\n\n**Key Uncertainties:**\n\n*   **Speed of AI improvement:** How quickly will AI agents reach the capability of senior engineers?\n*   **Strength of Jevons Paradox:** Will cheaper software creation lead to proportionally more software demand?\n*   **Quality of AI-generated code:** Can AI-generated code maintain quality at scale, or will it create technical debt?\n*   **Regulatory response:** Will governments intervene to protect jobs or regulate AI deployment?\n\n**Current Data Points (2025-2026):**\n\n*   A significant percentage of developers use AI coding tools regularly.\n*   A substantial portion of code is now AI-assisted.\n*   Entry-level software job postings are down from their peak.\n*   Average software engineer salaries are increasing for senior roles but stagnating for junior roles.\n\n**Overall Assessment:**\n\nIt's unlikely that total software engineering employment will drastically decrease in the next 5 years. Instead, the nature of the work is likely to shift. There may be fewer entry-level positions, and more emphasis on skills related to AI-augmented development, system design, and specialized areas. The demand for software is still high, and AI could lead to even greater demand by making software development more accessible and affordable. However, individual software engineers, especially those in junior roles or those focused on routine tasks, may need to adapt their skills to remain competitive.\n"
+}

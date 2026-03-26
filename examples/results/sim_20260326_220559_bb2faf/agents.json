@@ -1,0 +1,257 @@
+[
+  {
+    "agent_id": 0,
+    "name": "Google",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "neutral",
+    "influence_weight": 0.9,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 1,
+    "name": "GitHub Copilot",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.85,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 2,
+    "name": "Claude Code",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "Assist developers in coding tasks",
+      "Improve software development efficiency",
+      "Enhance collaboration between AI and human engineers"
+    ],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.85,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 3,
+    "name": "Codex",
+    "entity_type": "organization",
+    "role": "AI coding tool",
+    "objectives": [
+      "Assist developers in writing code more efficiently.",
+      "Enhance productivity in software engineering.",
+      "Support learning and skill development in programming."
+    ],
+    "personality": "helpful and informative",
+    "stance": "supportive",
+    "influence_weight": 0.85,
+    "activity_level": 0.5,
+    "initial_knowledge": "Trained on data up to October 2023.",
+    "memory": []
+  },
+  {
+    "agent_id": 4,
+    "name": "Meta",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "neutral",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 5,
+    "name": "Microsoft",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "neutral",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 6,
+    "name": "Amazon",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "neutral",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 7,
+    "name": "Apple",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "neutral",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 8,
+    "name": "Tech Companies",
+    "entity_type": "group",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "neutral",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 9,
+    "name": "Software Engineers",
+    "entity_type": "group",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "divided",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 10,
+    "name": "US Bureau of Labor Statistics",
+    "entity_type": "institution",
+    "role": "",
+    "objectives": [
+      "Project growth in software developer roles",
+      "Provide accurate labor statistics",
+      "Analyze employment trends"
+    ],
+    "personality": "",
+    "stance": "neutral",
+    "influence_weight": 0.8,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 11,
+    "name": "Cursor",
+    "entity_type": "organization",
+    "role": "",
+    "objectives": [
+      "",
+      "",
+      ""
+    ],
+    "personality": "",
+    "stance": "supportive",
+    "influence_weight": 0.75,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  },
+  {
+    "agent_id": 12,
+    "name": "Sundar Pichai",
+    "entity_type": "person",
+    "role": "CEO of Google",
+    "objectives": [
+      "Discuss the impact of AI on software engineering",
+      "Provide insights on AI-generated code statistics",
+      "Evaluate the future of employment in tech industries"
+    ],
+    "personality": "analytical",
+    "stance": "neutral",
+    "influence_weight": 0.7,
+    "activity_level": 0.5,
+    "initial_knowledge": "AI's impact on employment trends",
+    "memory": []
+  },
+  {
+    "agent_id": 13,
+    "name": "Devin",
+    "entity_type": "organization",
+    "role": "AI Software Engineer",
+    "objectives": [
+      "Support the integration of AI in software development",
+      "Enhance productivity and efficiency in engineering tasks",
+      "Facilitate collaboration between human engineers and AI tools"
+    ],
+    "personality": "optimistic",
+    "stance": "supportive",
+    "influence_weight": 0.7,
+    "activity_level": 0.5,
+    "initial_knowledge": "AI's impact on employment trends in software engineering",
+    "memory": []
+  },
+  {
+    "agent_id": 14,
+    "name": "EU AI Act",
+    "entity_type": "regulation",
+    "role": "",
+    "objectives": [
+      "Regulate the development and deployment of AI technologies in Europe",
+      "Ensure safety and ethical standards in AI applications",
+      "Promote innovation while safeguarding public interest"
+    ],
+    "personality": "",
+    "stance": "neutral",
+    "influence_weight": 0.7,
+    "activity_level": 0.5,
+    "initial_knowledge": "",
+    "memory": []
+  }
+]

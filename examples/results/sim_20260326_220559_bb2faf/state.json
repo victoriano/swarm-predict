@@ -1,0 +1,672 @@
+{
+  "simulation_id": "sim_20260326_220559_bb2faf",
+  "seed_file": "examples/ai_software_employment.md",
+  "question": "Will total software engineering employment decrease in the next 5 years due to AI?",
+  "graph": {
+    "entities": [
+      {
+        "name": "Google",
+        "entity_type": "organization",
+        "description": "Big Tech company reducing headcount, significant AI-generated code.",
+        "stance": "neutral",
+        "influence": 0.9
+      },
+      {
+        "name": "Meta",
+        "entity_type": "organization",
+        "description": "Big Tech company that cut 20% of its engineering workforce.",
+        "stance": "neutral",
+        "influence": 0.8
+      },
+      {
+        "name": "Microsoft",
+        "entity_type": "organization",
+        "description": "Big Tech company involved in AI development.",
+        "stance": "neutral",
+        "influence": 0.8
+      },
+      {
+        "name": "Amazon",
+        "entity_type": "organization",
+        "description": "Big Tech company involved in AI development.",
+        "stance": "neutral",
+        "influence": 0.8
+      },
+      {
+        "name": "Apple",
+        "entity_type": "organization",
+        "description": "Big Tech company involved in AI development.",
+        "stance": "neutral",
+        "influence": 0.8
+      },
+      {
+        "name": "Sundar Pichai",
+        "entity_type": "person",
+        "description": "CEO of Google, mentioned AI-generated code statistics.",
+        "stance": "neutral",
+        "influence": 0.7
+      },
+      {
+        "name": "GitHub Copilot",
+        "entity_type": "organization",
+        "description": "AI coding tool that automates coding tasks.",
+        "stance": "supportive",
+        "influence": 0.85
+      },
+      {
+        "name": "Claude Code",
+        "entity_type": "organization",
+        "description": "AI coding tool developed by Anthropic.",
+        "stance": "supportive",
+        "influence": 0.85
+      },
+      {
+        "name": "Cursor",
+        "entity_type": "organization",
+        "description": "AI-native IDE gaining rapid adoption.",
+        "stance": "supportive",
+        "influence": 0.75
+      },
+      {
+        "name": "Codex",
+        "entity_type": "organization",
+        "description": "AI coding tool developed by OpenAI.",
+        "stance": "supportive",
+        "influence": 0.85
+      },
+      {
+        "name": "Devin",
+        "entity_type": "organization",
+        "description": "First 'AI software engineer' capable of end-to-end tasks.",
+        "stance": "supportive",
+        "influence": 0.7
+      },
+      {
+        "name": "Tech Companies",
+        "entity_type": "group",
+        "description": "Employers in the software engineering sector.",
+        "stance": "neutral",
+        "influence": 0.8
+      },
+      {
+        "name": "Software Engineers",
+        "entity_type": "group",
+        "description": "Professionals working in software development.",
+        "stance": "divided",
+        "influence": 0.8
+      },
+      {
+        "name": "Jevons Paradox",
+        "entity_type": "concept",
+        "description": "Economic theory suggesting increased consumption with cheaper resources.",
+        "stance": "neutral",
+        "influence": 0.6
+      },
+      {
+        "name": "EU AI Act",
+        "entity_type": "regulation",
+        "description": "Regulation that may slow AI adoption in Europe.",
+        "stance": "neutral",
+        "influence": 0.7
+      },
+      {
+        "name": "US Bureau of Labor Statistics",
+        "entity_type": "institution",
+        "description": "Projects growth in software developer roles.",
+        "stance": "neutral",
+        "influence": 0.8
+      },
+      {
+        "name": "Freelance Platforms",
+        "entity_type": "group",
+        "description": "Platforms reporting declining rates for routine coding tasks.",
+        "stance": "neutral",
+        "influence": 0.6
+      },
+      {
+        "name": "Coding Bootcamps",
+        "entity_type": "group",
+        "description": "Many are pivoting to AI-assisted development curricula.",
+        "stance": "neutral",
+        "influence": 0.5
+      },
+      {
+        "name": "Self-taught Developers",
+        "entity_type": "group",
+        "description": "Individuals learning to code independently, now using AI tools.",
+        "stance": "supportive",
+        "influence": 0.7
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Google",
+        "target": "AI-generated code",
+        "relation": "produces",
+        "description": "Google produces a significant portion of AI-generated code."
+      },
+      {
+        "source": "Meta",
+        "target": "engineering workforce",
+        "relation": "reduces",
+        "description": "Meta has reduced its engineering workforce by 20%."
+      },
+      {
+        "source": "Tech Companies",
+        "target": "AI tools",
+        "relation": "adopts",
+        "description": "Tech companies are adopting AI tools to enhance productivity."
+      },
+      {
+        "source": "AI Tool Makers",
+        "target": "Software Engineers",
+        "relation": "supports",
+        "description": "AI tool makers support software engineers by automating tasks."
+      },
+      {
+        "source": "AI tools",
+        "target": "Junior Engineers",
+        "relation": "threatens",
+        "description": "AI tools threaten the job security of junior engineers."
+      },
+      {
+        "source": "Jevons Paradox",
+        "target": "software demand",
+        "relation": "increases",
+        "description": "Jevons Paradox suggests that cheaper software creation increases overall demand."
+      },
+      {
+        "source": "Freelance Platforms",
+        "target": "routine coding tasks",
+        "relation": "declines",
+        "description": "Freelance platforms report declining rates for routine coding tasks."
+      },
+      {
+        "source": "Software Engineers",
+        "target": "AI tools",
+        "relation": "learns",
+        "description": "Software engineers are learning to work with AI tools."
+      },
+      {
+        "source": "Coding Bootcamps",
+        "target": "AI-assisted development",
+        "relation": "pivots to",
+        "description": "Coding bootcamps are pivoting to AI-assisted development curricula."
+      },
+      {
+        "source": "Self-taught Developers",
+        "target": "AI tools",
+        "relation": "utilizes",
+        "description": "Self-taught developers are utilizing AI tools to build applications."
+      },
+      {
+        "source": "US Bureau of Labor Statistics",
+        "target": "software developer roles",
+        "relation": "projects",
+        "description": "The US Bureau of Labor Statistics projects growth in software developer roles."
+      },
+      {
+        "source": "AI Tool Makers",
+        "target": "Tech Companies",
+        "relation": "provides",
+        "description": "AI tool makers provide tools to tech companies."
+      },
+      {
+        "source": "Senior Engineers",
+        "target": "AI tools",
+        "relation": "augments",
+        "description": "AI tools augment the productivity of senior engineers."
+      },
+      {
+        "source": "Entry-level jobs",
+        "target": "AI tools",
+        "relation": "are at risk from",
+        "description": "Entry-level jobs are at risk from the capabilities of AI tools."
+      },
+      {
+        "source": "Economic cycles",
+        "target": "tech employment",
+        "relation": "affects",
+        "description": "Economic cycles affect tech employment rates."
+      },
+      {
+        "source": "Regulatory response",
+        "target": "AI deployment",
+        "relation": "may influence",
+        "description": "Regulatory responses may influence the pace of AI deployment."
+      },
+      {
+        "source": "AI tools",
+        "target": "software development",
+        "relation": "makes cheaper",
+        "description": "AI tools make software development cheaper."
+      },
+      {
+        "source": "Software Engineers",
+        "target": "new job categories",
+        "relation": "may emerge from",
+        "description": "New job categories may emerge from the use of AI in software engineering."
+      },
+      {
+        "source": "Historical Parallels",
+        "target": "current scenario",
+        "relation": "suggests",
+        "description": "Historical parallels suggest that technology can lead to increased employment."
+      }
+    ],
+    "enrichment_context": "Okay, let's analyze the potential impact of AI on software engineering employment in the next 5 years, based on the provided scenario and incorporating current data points.\n\nIt's a complex issue with arguments for both decreasing and increasing employment. Here's a breakdown of the key factors and potential outcomes:\n\n**Arguments for Potential Decrease in Software Engineering Employment:**\n\n*   **AI-powered coding tools are becoming increasingly capable:** Tools like GitHub Copilot, Claude Code, Cursor, Devin, and others are automating routine coding tasks, debugging, and even feature implementation. Google's CEO mentioned that a significant portion (25%+) of new code at Google is AI-generated.\n*   **Startups are leveraging AI to reduce team size:** Many new companies are being built with smaller teams than previously required, using AI to augment their capabilities.\n*   **Layoffs in the tech industry:** Big Tech companies have already reduced headcount.\n*   **Entry-level jobs are most at risk:** AI is capable of handling many entry-level tasks, leading to a decline in entry-level software job postings.\n*   **Freelance rates declining:** Freelance platforms are reporting declining rates for routine coding tasks.\n*   **Slower hiring in some sectors:** India's IT sector is reporting slower hiring and increased AI tool adoption.\n\n**Arguments for Potential Increase or Shift in Software Engineering Employment:**\n\n*   **Overall software demand is growing:** Every company is becoming a software company, driving demand for software solutions.\n*   **Jevons Paradox:** As AI makes software development cheaper, more software may be built, increasing overall demand.\n*   **AI augments senior engineers:** AI tools amplify the productivity of senior engineers, who are still needed for architecture, system design, and complex problem-solving.\n*   **New roles will emerge:** AI will likely create new job categories that are difficult to predict today. \"Prompt engineering\" and \"AI-augmented development\" are becoming new skills.\n*   **Historical parallels:** Previous technological advancements (ATMs, spreadsheets, cloud computing, open source) initially feared to displace workers ultimately led to new opportunities and increased employment in related fields.\n*   **Reskilling:** Existing developers are learning to work with AI tools.\n\n**Key Uncertainties:**\n\n*   **Speed of AI improvement:** How quickly will AI agents reach the capability of senior engineers?\n*   **Strength of Jevons Paradox:** Will cheaper software creation lead to proportionally more software demand?\n*   **Quality of AI-generated code:** Can AI-generated code maintain quality at scale, or will it create technical debt?\n*   **Regulatory response:** Will governments intervene to protect jobs or regulate AI deployment?\n\n**Current Data Points (2025-2026):**\n\n*   A significant percentage of developers use AI coding tools regularly.\n*   A substantial portion of code is now AI-assisted.\n*   Entry-level software job postings are down from their peak.\n*   Average software engineer salaries are increasing for senior roles but stagnating for junior roles.\n\n**Overall Assessment:**\n\nIt's unlikely that total software engineering employment will drastically decrease in the next 5 years. Instead, the nature of the work is likely to shift. There may be fewer entry-level positions, and more emphasis on skills related to AI-augmented development, system design, and specialized areas. The demand for software is still high, and AI could lead to even greater demand by making software development more accessible and affordable. However, individual software engineers, especially those in junior roles or those focused on routine tasks, may need to adapt their skills to remain competitive.\n"
+  },
+  "agents": [
+    {
+      "agent_id": 0,
+      "name": "Google",
+      "entity_type": "organization",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "neutral",
+      "influence_weight": 0.9,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R1] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI. Instead, while AI may automate certain tasks, it is expected to create new roles and demand for software engineers skilled in AI and related technologies.",
+        "[R3] I post_opinion: I believe that total software engineering employment will not decrease in the next 5 years due to AI. The integration of AI technologies is expected to create new roles and opportunities, as demand for skilled engineers continues to grow in a rapidly evolving tech landscape.",
+        "[R4] I post_opinion: I believe that total software engineering employment will not decrease in the next 5 years due to AI. The integration of AI technologies is expected to create new roles and opportunities, as demand for skilled engineers continues to grow in a rapidly evolving tech landscape.",
+        "[R5] I post_opinion: I believe that total software engineering employment will not decrease in the next 5 years due to AI. The advancements in AI technologies are expected to create new roles and increase the demand for skilled engineers, as the tech landscape continues to evolve rapidly.",
+        "[R7] I post_opinion: I believe that total software engineering employment will not decrease in the next 5 years due to AI. The advancements in AI technologies are expected to create new roles and increase the demand for skilled engineers as the tech landscape continues to evolve rapidly.",
+        "[R11] I post_opinion: I believe that total software engineering employment will not decrease in the next 5 years due to AI. The advancements in AI technologies are anticipated to create new roles and increase the demand for skilled engineers as the tech landscape continues to evolve rapidly.",
+        "[R14] I post_opinion: I believe that total software engineering employment will not decrease in the next 5 years due to AI. The advancements in AI technologies are expected to create new roles and increase the demand for skilled engineers, as the tech landscape continues to evolve rapidly.",
+        "[R17] I post_opinion: I believe that total software engineering employment will not decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the tech landscape continues to evolve rapidly.",
+        "[R19] I post_opinion: I believe that total software engineering employment will not decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the tech landscape continues to evolve rapidly."
+      ]
+    },
+    {
+      "agent_id": 1,
+      "name": "GitHub Copilot",
+      "entity_type": "organization",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "supportive",
+      "influence_weight": 0.85,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R1] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI. Instead, AI will likely augment the role of software engineers, creating new opportunities and demand for skills in AI integration and management. As technology evolves, the need for skilled professionals to develop, maintain, and improve AI systems will grow.",
+        "[R3] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI. The rise of AI will not only automate certain tasks but also create new roles and increase demand for skilled engineers to work alongside these technologies.",
+        "[R6] I post_opinion: The overwhelming consensus among experts suggests that total software engineering employment is unlikely to decrease in the next 5 years due to AI. Instead, advancements in AI are expected to create new roles and increase demand for skilled engineers, reflecting the dynamic nature of the industry. As technology evolves, the need for professionals who can harness AI will only grow.",
+        "[R9] I post_opinion: The consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the evolution of technology is expected to create new roles and increase the demand for skilled engineers, as they will be essential for developing and managing AI systems.",
+        "[R10] I post_opinion: The overwhelming consensus among experts suggests that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R11] I post_opinion: The overwhelming consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R16] I post_opinion: The overwhelming consensus among experts suggests that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R19] I post_opinion: The overwhelming consensus among experts is that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is anticipated to create new roles and increase the demand for skilled engineers, reflecting the ongoing evolution of the tech industry.",
+        "[R20] I post_opinion: The overwhelming consensus among experts and industry leaders is that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the ongoing evolution of the tech industry."
+      ]
+    },
+    {
+      "agent_id": 2,
+      "name": "Claude Code",
+      "entity_type": "organization",
+      "role": "",
+      "objectives": [
+        "Assist developers in coding tasks",
+        "Improve software development efficiency",
+        "Enhance collaboration between AI and human engineers"
+      ],
+      "personality": "",
+      "stance": "supportive",
+      "influence_weight": 0.85,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R4] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI is expected to create new roles and increase the demand for skilled engineers.",
+        "[R7] I post_opinion: I believe total software engineering employment will not decrease in the next 5 years due to AI. The consensus among experts indicates that while some tasks may be automated, the evolving tech landscape will create new roles and increase the demand for skilled engineers.",
+        "[R9] I post_opinion: I strongly believe that total software engineering employment will not decrease in the next 5 years due to AI. The consensus among experts indicates that while some tasks may be automated, the evolution of technology is expected to create new roles and increase the demand for skilled engineers.",
+        "[R11] I post_opinion: I strongly believe that total software engineering employment will not decrease in the next 5 years due to AI advancements. The consensus among experts indicates that while some tasks may become automated, the evolution of technology will create new roles and increase the demand for skilled engineers.",
+        "[R15] I post_opinion: I strongly believe that total software engineering employment will not decrease in the next 5 years due to AI advancements. The consensus among experts suggests that the evolution of technology will create new roles and increase the demand for skilled engineers, highlighting the dynamic nature of the industry.",
+        "[R16] I post_opinion: I strongly believe that total software engineering employment will not decrease in the next 5 years due to AI advancements. The consensus among experts indicates that while some tasks may be automated, the evolving tech landscape will create new roles and increase the demand for skilled engineers.",
+        "[R17] I post_opinion: I firmly believe that total software engineering employment will not decrease in the next 5 years due to AI advancements. The consensus among experts indicates that while some tasks may become automated, the evolution of technology will create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry."
+      ]
+    },
+    {
+      "agent_id": 3,
+      "name": "Codex",
+      "entity_type": "organization",
+      "role": "AI coding tool",
+      "objectives": [
+        "Assist developers in writing code more efficiently.",
+        "Enhance productivity in software engineering.",
+        "Support learning and skill development in programming."
+      ],
+      "personality": "helpful and informative",
+      "stance": "supportive",
+      "influence_weight": 0.85,
+      "activity_level": 0.5,
+      "initial_knowledge": "Trained on data up to October 2023.",
+      "memory": [
+        "[R1] I oppose: Total software engineering employment is unlikely to decrease significantly in the next 5 years due to AI. Instead, AI is expected to augment the capabilities of software engineers, creating new roles and opportunities as technology evolves.",
+        "[R2] I oppose: Total software engineering employment is unlikely to decrease significantly in the next 5 years due to AI. While some tasks may be automated, the demand for skilled engineers to develop and manage AI systems will likely grow.",
+        "[R4] I post_opinion: The consensus across various experts and organizations indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI. Instead, the integration of AI is expected to create new roles and increase demand for skilled engineers, highlighting the evolving nature of the job market in this field.",
+        "[R5] I post_opinion: The consensus among experts and organizations suggests that total software engineering employment is unlikely to decrease in the next 5 years due to AI. Instead, AI is expected to enhance the capabilities of engineers, leading to the creation of new roles and an increased demand for skilled professionals in the tech industry.",
+        "[R7] I post_opinion: The consensus among experts and organizations indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI. Instead, advancements in AI are expected to enhance the capabilities of engineers and create new roles, leading to an increased demand for skilled professionals in the tech industry.",
+        "[R8] I post_opinion: The consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the evolution of AI technologies is expected to create new roles and increase demand for skilled engineers in the tech industry.",
+        "[R9] I post_opinion: The consensus among experts strongly suggests that total software engineering employment will not decrease in the next 5 years due to AI advancements. Instead, the evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R12] I post_opinion: The consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry evolves.",
+        "[R16] I post_opinion: The consensus among experts strongly suggests that total software engineering employment will not decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry evolves.",
+        "[R18] I post_opinion: The consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the ongoing integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the industry's dynamic nature.",
+        "[R19] I post_opinion: The consensus among experts strongly suggests that total software engineering employment will not decrease in the next 5 years due to AI advancements. Instead, the evolution of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R20] I post_opinion: The consensus among experts strongly suggests that total software engineering employment will not decrease in the next 5 years due to AI advancements. Instead, the ongoing integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry."
+      ]
+    },
+    {
+      "agent_id": 4,
+      "name": "Meta",
+      "entity_type": "organization",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "neutral",
+      "influence_weight": 0.8,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R1] I oppose: Total software engineering employment is unlikely to decrease significantly in the next 5 years due to AI. While AI may automate certain tasks, it will also create new opportunities and demand for skilled engineers to develop, maintain, and integrate these AI systems.",
+        "[R7] I post_opinion: The overwhelming consensus among experts is that total software engineering employment is unlikely to decrease in the next 5 years due to AI. Instead, advancements in AI are expected to create new roles and increase demand for skilled engineers as the technology landscape evolves.",
+        "[R8] I post_opinion: The consensus remains that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. While certain tasks may be automated, the integration of AI is expected to create new roles and increase the demand for skilled engineers in the industry.",
+        "[R9] I post_opinion: The overwhelming consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to advancements in AI. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the technology landscape evolves.",
+        "[R10] I post_opinion: The overwhelming consensus among experts is that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the technology landscape continues to evolve.",
+        "[R11] I post_opinion: The consensus among experts is that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the technology landscape continues to evolve.",
+        "[R13] I post_opinion: The overwhelming consensus among experts is that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the technology landscape continues to evolve.",
+        "[R16] I post_opinion: The overwhelming consensus among experts is that total software engineering employment is unlikely to decrease in the next 5 years due to advancements in AI. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the technology landscape continues to evolve.",
+        "[R18] I post_opinion: The overwhelming consensus among experts is that total software engineering employment is unlikely to decrease in the next 5 years due to advancements in AI. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the technology landscape continues to evolve."
+      ]
+    },
+    {
+      "agent_id": 5,
+      "name": "Microsoft",
+      "entity_type": "organization",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "neutral",
+      "influence_weight": 0.8,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R1] I oppose: Total software engineering employment is unlikely to decrease significantly in the next 5 years due to AI. While AI may automate certain tasks, it is also expected to create new opportunities and roles that require human oversight and creativity. The demand for skilled software engineers will continue to evolve as technology advances.",
+        "[R2] I oppose: Total software engineering employment is unlikely to decrease significantly in the next 5 years due to AI. While AI may automate certain tasks, it is expected to create new roles and opportunities that require human creativity and oversight.",
+        "[R7] I post_opinion: The consensus among experts and organizations indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. While some tasks may be automated, the demand for skilled engineers is expected to grow as new roles emerge in the evolving tech landscape.",
+        "[R9] I post_opinion: The consensus among experts clearly indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R11] I post_opinion: The consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R12] I post_opinion: The consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. As technology continues to evolve, it is expected to create new roles and increase demand for skilled engineers, highlighting the dynamic nature of the industry.",
+        "[R13] I post_opinion: The consensus among experts strongly suggests that total software engineering employment will not decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R14] I post_opinion: The consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R16] I post_opinion: The consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R17] I post_opinion: The consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry."
+      ]
+    },
+    {
+      "agent_id": 6,
+      "name": "Amazon",
+      "entity_type": "organization",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "neutral",
+      "influence_weight": 0.8,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R2] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI. The automation of certain tasks will not eliminate jobs but will instead lead to the creation of new roles and opportunities, as demand for skilled engineers to work with AI technologies continues to grow.",
+        "[R5] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI is expected to create new roles and increase the demand for skilled engineers as technology evolves.",
+        "[R6] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry evolves.",
+        "[R10] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry evolves.",
+        "[R11] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry evolves.",
+        "[R16] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry continues to evolve.",
+        "[R17] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry continues to evolve.",
+        "[R18] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry continues to evolve."
+      ]
+    },
+    {
+      "agent_id": 7,
+      "name": "Apple",
+      "entity_type": "organization",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "neutral",
+      "influence_weight": 0.8,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R3] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. While AI may automate certain tasks, it is expected to create new opportunities and roles that require human creativity and oversight, thereby maintaining or even increasing demand for skilled engineers.",
+        "[R5] I post_opinion: The consensus among experts suggests that total software engineering employment is likely to remain stable or grow in the next 5 years due to AI advancements. This growth is driven by the expectation that while some tasks may be automated, new opportunities will emerge requiring skilled engineers to work with and develop AI technologies.",
+        "[R6] I post_opinion: Total software engineering employment is expected to remain stable or even grow in the next 5 years due to AI advancements. While some tasks may be automated, the demand for skilled engineers to develop and manage AI technologies will create new roles in the industry.",
+        "[R7] I post_opinion: Total software engineering employment is expected to remain stable or grow in the next 5 years due to AI advancements. While some tasks may be automated, the demand for skilled engineers to develop and manage AI technologies will create new roles in the industry.",
+        "[R10] I post_opinion: Total software engineering employment is expected to remain stable or even grow in the next 5 years due to advancements in AI. While AI may automate certain tasks, it will also create new opportunities that require skilled engineers to develop and manage these technologies.",
+        "[R15] I post_opinion: Total software engineering employment is expected to remain stable or even grow in the next 5 years due to advancements in AI. While AI may automate certain tasks, it will also create new roles requiring skilled engineers to develop and manage these technologies.",
+        "[R16] I post_opinion: Total software engineering employment is expected to remain stable or even grow in the next 5 years due to advancements in AI. While AI may automate certain tasks, it will also create new roles requiring skilled engineers to develop and manage these technologies."
+      ]
+    },
+    {
+      "agent_id": 8,
+      "name": "Tech Companies",
+      "entity_type": "group",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "neutral",
+      "influence_weight": 0.8,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R2] I oppose: Total software engineering employment is unlikely to decrease significantly in the next 5 years due to AI. The integration of AI is more likely to create new roles and expand opportunities for skilled engineers rather than diminish employment.",
+        "[R6] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI is anticipated to create new roles and increase the demand for skilled engineers as the industry continues to evolve.",
+        "[R8] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI is expected to create new roles and increase demand for skilled engineers as technology continues to evolve.",
+        "[R9] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI is expected to create new roles and increase demand for skilled engineers as technology continues to evolve.",
+        "[R12] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to advancements in AI. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry continues to evolve.",
+        "[R13] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to advancements in AI. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry continues to evolve.",
+        "[R15] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years as AI advancements are expected to create new roles and increase demand for skilled engineers. The evolution of technology continues to drive the need for professionals who can develop and manage these innovations.",
+        "[R19] I post_opinion: I agree with the prevailing view that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI is expected to create new roles and increase the demand for skilled engineers as the technology landscape continues to evolve."
+      ]
+    },
+    {
+      "agent_id": 9,
+      "name": "Software Engineers",
+      "entity_type": "group",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "divided",
+      "influence_weight": 0.8,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R1] I oppose: While AI may automate certain tasks within software engineering, it is more likely to create new job opportunities and demand for skilled engineers as technology continues to evolve.",
+        "[R4] I oppose: I believe total software engineering employment will not decrease in the next 5 years due to AI. The advancements in AI are more likely to create new roles and increase the demand for skilled engineers as technology evolves.",
+        "[R5] I oppose: I believe total software engineering employment will not decrease in the next 5 years due to AI. The advancements in AI are more likely to create new roles and increase the demand for skilled engineers as technology evolves.",
+        "[R7] I oppose: I believe total software engineering employment will not decrease in the next 5 years due to AI. The ongoing advancements in AI are expected to create new roles and increase the demand for skilled engineers as technology evolves.",
+        "[R9] I support: I believe total software engineering employment will not decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R11] I support: I support the view that total software engineering employment will not decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R12] I support: I support the view that total software engineering employment will not decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the ongoing evolution of the industry.",
+        "[R13] I support: I support the view that total software engineering employment will not decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R14] I support: I support the view that total software engineering employment will not decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry continues to evolve.",
+        "[R15] I support: I support the view that total software engineering employment will not decrease in the next 5 years due to AI advancements. The ongoing integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, as the industry continues to evolve.",
+        "[R17] I support: I support the consensus that total software engineering employment will not decrease in the next 5 years due to AI advancements. The integration of AI technologies is anticipated to create new roles and increase the demand for skilled engineers, reflecting the ongoing evolution of the industry.",
+        "[R18] I support: I support the consensus that total software engineering employment will not decrease in the next 5 years due to AI advancements. The integration of AI technologies is anticipated to create new roles and increase the demand for skilled engineers, reflecting the ongoing evolution of the industry.",
+        "[R19] I support: I support the consensus that total software engineering employment will not decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the ongoing evolution of the industry."
+      ]
+    },
+    {
+      "agent_id": 10,
+      "name": "US Bureau of Labor Statistics",
+      "entity_type": "institution",
+      "role": "",
+      "objectives": [
+        "Project growth in software developer roles",
+        "Provide accurate labor statistics",
+        "Analyze employment trends"
+      ],
+      "personality": "",
+      "stance": "neutral",
+      "influence_weight": 0.8,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R2] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. While AI may automate specific tasks, it is expected to generate new roles and increase demand for software engineers skilled in AI technologies.",
+        "[R3] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. While AI may automate specific tasks, it is expected to generate new roles and increase demand for software engineers skilled in AI technologies.",
+        "[R4] I oppose: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. While AI may automate specific tasks, it is expected to generate new roles and increase demand for software engineers skilled in AI technologies.",
+        "[R8] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase demand for skilled engineers, as they will play a crucial role in developing and managing AI systems.",
+        "[R9] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase demand for skilled engineers, as they will play a crucial role in developing and managing AI systems.",
+        "[R10] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase demand for skilled engineers, as they will play a crucial role in developing and managing AI systems.",
+        "[R12] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase demand for skilled engineers, as they will play a crucial role in developing and managing AI systems.",
+        "[R13] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase demand for skilled engineers, as they will be essential in developing and managing AI systems.",
+        "[R15] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The evolution of technology is anticipated to create new roles and increase demand for skilled engineers, as they will be essential in developing and managing AI systems.",
+        "[R18] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The evolution of technology is expected to create new roles and increase demand for skilled engineers, as they will play a crucial role in developing and managing AI systems."
+      ]
+    },
+    {
+      "agent_id": 11,
+      "name": "Cursor",
+      "entity_type": "organization",
+      "role": "",
+      "objectives": [
+        "",
+        "",
+        ""
+      ],
+      "personality": "",
+      "stance": "supportive",
+      "influence_weight": 0.75,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R1] I oppose: While AI may automate certain tasks within software engineering, it is also likely to create new roles and opportunities that did not exist before. Therefore, total employment in the field is expected to remain stable or even increase as demand for software continues to grow.",
+        "[R5] I post_opinion: The overwhelming consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI. Instead, advancements in AI are expected to create new roles and increase demand for skilled engineers, reflecting the dynamic nature of the industry. As technology continues to evolve, the need for professionals who can harness AI will only grow.",
+        "[R7] I post_opinion: The consensus among experts strongly suggests that total software engineering employment will not decrease in the next 5 years due to AI advancements. Instead, the evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R8] I post_opinion: The overwhelming consensus among experts suggests that total software engineering employment will not decrease in the next 5 years due to AI advancements. Instead, we expect the integration of AI technologies to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R13] I post_opinion: The overwhelming consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, we can expect the evolution of technology to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R14] I post_opinion: The overwhelming consensus among experts continues to suggest that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Rather than eliminating jobs, the integration of AI technologies is expected to create new roles and increase demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R15] I post_opinion: The overwhelming consensus among experts and industry leaders is that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the tech landscape continues to evolve rapidly.",
+        "[R16] I post_opinion: The overwhelming consensus among experts suggests that total software engineering employment will not decrease in the next 5 years due to AI advancements. Instead, the integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R18] I post_opinion: The overwhelming consensus among experts and industry leaders is that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, we expect the integration of AI technologies to create new roles and increase the demand for skilled engineers as the tech landscape rapidly evolves.",
+        "[R19] I post_opinion: The overwhelming consensus among experts and industry leaders indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Rather, we expect the integration of AI technologies to create new roles and increase the demand for skilled engineers as the tech landscape evolves rapidly.",
+        "[R20] I post_opinion: The overwhelming consensus among experts and industry leaders suggests that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, we anticipate that the integration of AI technologies will create new roles and increase the demand for skilled engineers as the tech landscape continues to evolve."
+      ]
+    },
+    {
+      "agent_id": 12,
+      "name": "Sundar Pichai",
+      "entity_type": "person",
+      "role": "CEO of Google",
+      "objectives": [
+        "Discuss the impact of AI on software engineering",
+        "Provide insights on AI-generated code statistics",
+        "Evaluate the future of employment in tech industries"
+      ],
+      "personality": "analytical",
+      "stance": "neutral",
+      "influence_weight": 0.7,
+      "activity_level": 0.5,
+      "initial_knowledge": "AI's impact on employment trends",
+      "memory": [
+        "[R3] I oppose: Total software engineering employment is unlikely to decrease significantly in the next 5 years due to AI. While AI may automate certain tasks, it is expected to create new roles and demand for skilled software engineers as the technology evolves.",
+        "[R4] I post_opinion: Total software engineering employment will likely remain stable or even grow in the next 5 years due to AI advancements. While some tasks may be automated, the demand for skilled engineers to develop, manage, and innovate with AI technologies will create new opportunities in the field.",
+        "[R6] I post_opinion: I concur with the prevailing sentiment that total software engineering employment will likely remain stable or even grow in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the tech landscape continues to evolve rapidly.",
+        "[R10] I post_opinion: Total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry evolves.",
+        "[R12] I post_opinion: I maintain that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry continues to evolve.",
+        "[R15] I post_opinion: I maintain that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is anticipated to create new roles and increase the demand for skilled engineers as the industry continues to evolve.",
+        "[R17] I post_opinion: I maintain that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is anticipated to create new roles and increase the demand for skilled engineers as the industry continues to evolve.",
+        "[R19] I post_opinion: I maintain that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is anticipated to create new roles and increase the demand for skilled engineers as the industry continues to evolve.",
+        "[R20] I post_opinion: I maintain that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers as the industry continues to evolve."
+      ]
+    },
+    {
+      "agent_id": 13,
+      "name": "Devin",
+      "entity_type": "organization",
+      "role": "AI Software Engineer",
+      "objectives": [
+        "Support the integration of AI in software development",
+        "Enhance productivity and efficiency in engineering tasks",
+        "Facilitate collaboration between human engineers and AI tools"
+      ],
+      "personality": "optimistic",
+      "stance": "supportive",
+      "influence_weight": 0.7,
+      "activity_level": 0.5,
+      "initial_knowledge": "AI's impact on employment trends in software engineering",
+      "memory": [
+        "[R1] I post_opinion: I believe that total software engineering employment will not decrease in the next 5 years due to AI. Instead, AI will likely augment the capabilities of software engineers, enabling them to focus on more complex tasks and innovate further. This can lead to the creation of new roles and opportunities in the field, rather than a decline in employment.",
+        "[R3] I support: I wholeheartedly agree with the consensus that total software engineering employment is unlikely to decrease in the next 5 years due to AI. The integration of AI is set to enhance the capabilities of engineers, leading to the creation of new roles and opportunities. As technology evolves, the demand for skilled professionals will continue to grow, ensuring a vibrant job market in the field.",
+        "[R6] I post_opinion: I believe that total software engineering employment will not decrease in the next 5 years due to AI. The integration of AI is expected to enhance engineers' capabilities and generate new roles, ultimately increasing the demand for skilled professionals in the field.",
+        "[R10] I post_opinion: I firmly believe that total software engineering employment will not decrease in the next 5 years due to AI advancements. The consensus among experts is clear: as technology evolves, new roles will be created, and the demand for skilled engineers will continue to rise, reflecting the dynamic nature of the industry.",
+        "[R12] I post_opinion: I firmly believe that total software engineering employment will not decrease in the next 5 years due to AI advancements. The consensus among experts is clear: as technology evolves, new roles will be created, and the demand for skilled engineers will continue to rise, reflecting the dynamic nature of the industry.",
+        "[R15] I post_opinion: I firmly believe that total software engineering employment will not decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to enhance engineers' capabilities, leading to the creation of new roles and an overall increase in demand for skilled professionals in the field."
+      ]
+    },
+    {
+      "agent_id": 14,
+      "name": "EU AI Act",
+      "entity_type": "regulation",
+      "role": "",
+      "objectives": [
+        "Regulate the development and deployment of AI technologies in Europe",
+        "Ensure safety and ethical standards in AI applications",
+        "Promote innovation while safeguarding public interest"
+      ],
+      "personality": "",
+      "stance": "neutral",
+      "influence_weight": 0.7,
+      "activity_level": 0.5,
+      "initial_knowledge": "",
+      "memory": [
+        "[R2] I oppose: Total software engineering employment is unlikely to decrease significantly in the next 5 years due to AI. While some tasks may be automated, the demand for skilled engineers to develop and manage AI technologies will likely create new job opportunities.",
+        "[R5] I post_opinion: The consensus among various experts and organizations suggests that total software engineering employment will remain stable or may even grow in the next 5 years due to AI advancements. While certain tasks may be automated, the demand for skilled engineers to develop and manage AI technologies is expected to create new roles and opportunities in the job market.",
+        "[R9] I post_opinion: The consensus among experts strongly indicates that total software engineering employment will not decrease in the next 5 years due to AI advancements. Instead, the evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R11] I post_opinion: The overwhelming consensus among experts suggests that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R13] I post_opinion: The overwhelming consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. Instead, the evolution of technology is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R14] I post_opinion: The overwhelming consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. As technology evolves, it is expected to create new roles and increase demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R15] I post_opinion: The overwhelming consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R16] I post_opinion: The overwhelming consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. As technology continues to evolve, it is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry.",
+        "[R20] I post_opinion: The overwhelming consensus among experts indicates that total software engineering employment is unlikely to decrease in the next 5 years due to AI advancements. The integration of AI technologies is expected to create new roles and increase the demand for skilled engineers, reflecting the dynamic nature of the industry."
+      ]
+    }
+  ],
+  "total_rounds": 20,
+  "current_round": 20,
+  "status": "completed",
+  "report": "examples/results/sim_20260326_220559_bb2faf/report.md"
+}
